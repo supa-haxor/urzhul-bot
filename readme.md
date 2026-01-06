@@ -38,13 +38,13 @@ Rather than manual curation, the bot functions as a pipeline:
 - Publishes media content to Twitter automatically.
 - Posts every **two hours** without manual intervention.
 
-A companion bot, [burgrbot](https://github.com/supa-haxor/burgrbot), publishes attribution information for each post.
+A companion bot, **burgrbot**, publishes attribution information for each post.
 
 ---
 
 ## Attribution & Credit
 
-To promote minimal source transparency, [burgrbot](https://github.com/supa-haxor/burgrbot) replies to Urzhúl’s tweets with:
+To promote minimal source transparency, **burgrbot** replies to Urzhúl’s tweets with:
 
 - a link to the original Reddit post  
 - the Reddit username of the submitter  
@@ -78,10 +78,10 @@ The **burgrbot** companion bot is not just for attribution — it can accept **c
 This feature allows controlled **manual overrides and testing** without giving anyone unrestricted access to the bot.
 
 ### Burgrbot Reply when asking to post manually a specific post
-![burgrbot Reply when asking to post manually a  specific post](burgrbot-reply-manually-post.png)
+![burgrbot Reply when asking to post manually a  specific post](images/burgrbot-reply-manually-post.png)
 
 ### Burgrbot Reply when asking to post manually no specifying a specific post
-![burgrbot Reply when asking to post manually no specifying a specific post](burgrbot-manually-post-non-id-post.png)
+![burgrbot Reply when asking to post manually no specifying a specific post](images/burgrbot-manually-post-non-id-post.png)
 
 ---
 
