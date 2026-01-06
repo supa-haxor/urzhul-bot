@@ -60,6 +60,31 @@ This does not guarantee original authorship, but it:
 
 ---
 
+## Bot Commands & Interaction
+
+The **burgrbot** companion bot is not just for attribution — it can accept **commands from authorized Twitter accounts** to manage Urzhúl’s content.  
+
+### Supported Commands
+- **Post a specific image**  
+  Add a Firebase image ID to the command, and Urzhúl will post that image automatically.
+
+- **Post a random image**  
+  Commands can trigger a random media post from the Firebase database.
+
+### Access Control
+- Only valid Twitter usernames (pre-approved) can trigger these commands.
+- Unauthorized users are ignored. Invalid commands receive a polite reply indicating the command was not recognized.
+
+This feature allows controlled **manual overrides and testing** without giving anyone unrestricted access to the bot.
+
+### Burgrbot Reply when asking to post manually a specific post
+![burgrbot Reply when asking to post manually a  specific post](burgrbot-reply-manually-post.png)
+
+### Burgrbot Reply when asking to post manually no specifying a specific post
+![burgrbot Reply when asking to post manually no specifying a specific post](burgrbot-manually-post-non-id-post.png)
+
+---
+
 ## Tech Stack
 
 - **JavaScript (Node.js)**
