@@ -4,6 +4,10 @@ Urzhúl is an automated Twitter bot that curates and publishes visual content so
 
 The bot operates autonomously, fetching media via the `Reddit API`, storing images metadata in `Firebase`, and publishing posts to Twitter at fixed intervals using the `Twitter API` and `Node.js`.
 
+
+### Urzhúl Twitter Profile
+![Urzhúl Twitter Profile](images/urzhul-profile.png)
+
 ---
 
 ## Overview
@@ -18,6 +22,9 @@ Urzhúl was built as an experiment in:
 Rather than manual curation, the bot functions as a pipeline:
 
 **Reddit → Firebase → Twitter**
+
+### Urzhúl Post Example
+![Urzhúl Post Example](images/urzhul-tweet.png)
 
 ---
 
@@ -47,6 +54,9 @@ This does not guarantee original authorship, but it:
 - provides traceability  
 - credits the platform of origin  
 - promotes basic decency in automated reposting  
+
+### Burgrbot Context Reply Example
+![burgrbot Reply Example](images/burgrbot-tweet.png)
 
 ---
 
@@ -81,6 +91,9 @@ Local execution requires:
 - Example attribution reply by burgrbot: 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">stolen from: <a href="https://t.co/XM9DhfD5gN">https://t.co/XM9DhfD5gN</a>, posted (probably stolen too) by: /u/HankyPank1013, via Reddit</p>&mdash; burgrbot (@burgrbot) <a href="https://twitter.com/burgrbot/status/1193743784829476865?ref_src=twsrc%5Etfw">November 11, 2019</a></blockquote>
 
+### Combined View of post and reply
+![Urzhúl Post + burgrbot Reply](images/post-and-reply.png)
+
 ---
 
 ## Project Status
@@ -92,18 +105,3 @@ Local execution requires:
   - API orchestration
   - Firebase-backed deduplication and state tracking
 
---- 
-
-## Screenshots
-
-### Urzhúl Twitter Profile
-![Urzhúl Twitter Profile](images/urzhul-profile.png)
-
-### Urzhúl Media Post Example
-![Urzhúl Post Example](images/urzhul-tweet.png)
-
-### burgrbot Reply Example
-![burgrbot Reply Example](images/burgrbot-tweet.png)
-
-### Combined View
-![Urzhúl Post + burgrbot Reply](images/post-and-reply.png)
