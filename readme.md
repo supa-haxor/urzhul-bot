@@ -91,3 +91,19 @@ Local execution requires:
   - scheduled bots
   - API orchestration
   - Firebase-backed deduplication and state tracking
+
+--- 
+
+## Screenshots
+
+### Urzhúl Twitter Profile
+![Urzhúl Twitter Profile](images/urzhul-profile.png)
+
+### Urzhúl Media Post Example
+![Urzhúl Post Example](images/urzhul-tweet.png)
+
+### burgrbot Reply Example
+![burgrbot Reply Example](images/burgrbot-tweet.png)
+
+### Combined View
+![Urzhúl Post + burgrbot Reply](images/post-and-reply.png)
